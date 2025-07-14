@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background-image: url(./assets/hero-bg.png);
+    height: 950px;
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+.title{
+    margin-bottom: 10px;
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.lorem{
+    opacity: 0.7;
+
+}
+button{
+    margin-top: 20px;
+    background-color: rgb(82, 195, 3);
+    border: 1px solid green;
+    padding: 10px 15px;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 500px;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.sale{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+span{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgba(82, 195, 3, 0.15);
+    border: 1px solid rgba(82, 195, 3, 0.15);
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.card ,p{
+    margin-top: 20px;
+}
+.card .off{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.up{
+    padding-right: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lust{
+    width: ;
+    height: 500px;
+    display: flex;
+    background-image: url(./assets/social-bg.png);
+    background-size: cover;
+}
+.food{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.marke{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.miss{
+    opacity: 0.7;
+    font-family: sans-serif;
+}
+.on{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
